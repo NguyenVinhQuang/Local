@@ -1,0 +1,142 @@
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+h2, .h2 {
+font-size: 16px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+font-weight: bold;
+color: #c41200;
+margin: 0 0 6px;
+}
+
+a {
+color: #3b65a7;
+text-decoration: none;
+}
+/*
+**************
+* all-photo
+**************
+*/
+
+div#all-photo, div#user-photo{
+	float: left;
+	padding: 0 15px;
+	min-height: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+#photo-details-header-actions {
+float: right;
+line-height: 22px;
+font-size: 12px;
+}
+#photo-details-header h2 {
+margin: 0;
+}
+
+.photos-index {
+margin-top: 10px;
+}
+.photos-index table {
+width: 100%;
+}
+
+.photos-index table td.photos {
+vertical-align: top;
+padding-top: 5px;
+}
+.photos-index table div.photo {
+width: 131px;
+height: 175px;
+margin: 0 5px 5px 0;
+padding: 0 0 15px 0;
+overflow: hidden;
+float: left;
+font-size: 10px;
+}
+
+.photos-index table .thumb-wrap {
+overflow: hidden;
+}
+.photos-index table .selected .photo-box {
+border: 7px solid #fff7c9;
+}
+.photos-index table .photo-box {
+border: 7px solid #fff;
+margin: 0 10px 0 5px;
+float: left;
+}
+.photo-box img {
+display: block;
+}
+.photo-box .photo-box-img {
+border-radius: 4px;
+}
+.photo-box a:visited img {
+outline: none;
+}
+.photos-index table .caption {
+margin: 0 10px 0 5px;
+}
+.smaller {
+font-size: 11px;
+}
+.photos-index table div.photo p {
+clear: left;
+margin: 2px 0 0 7px;
+}
+
+table.fs_pagination_controls {
+margin: 5px;
+}
+table.fs_pagination_controls td {
+white-space: nowrap;
+}
+table.fs_pagination_controls .range-of-total {
+padding-right: 5px;
+}
+table.fs_pagination_controls td span {
+font-weight: bold;
+font-size: 14px;
+}
+
+/*
+**************
+* button
+**************
+*/
+div.button button{
+	width: 50px;
+	font-size: 10px;
+	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	padding: 2px 3px;
+}
+div.button button.btn-unvote{
+	background: linear-gradient(#e99338, #f79b3b);
+	color: #fff;
+}
+form div.vote{
+	float: left;
+	margin: 5px 0 0 10px;
+}
+form div.remove{
+	clear: both;
+	margin: 5px 15px 0 10px;
+}
+button.btn-ok{
+	background-color: red;
+	color: #fff;
+	font-weight: bold;
+}
+button.btn-cancel{
+	background-color: green;
+	color: #fff;
+	font-weight: bold;
+}

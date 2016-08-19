@@ -1,0 +1,156 @@
+/*
+**************
+* alert-error
+**************
+*/
+
+div.alert-error{
+	color: #fff;
+	background: linear-gradient(#ab0e0c, #8d0b08);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+	position: relative;
+	margin-bottom: 12px;
+	border-radius: 7px;
+	font-size: 16px;
+	line-height: 1.3125em;
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.15);
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.15);
+}
+div.alert-error p{
+	padding: 7px 10px;
+}
+/*
+**************
+* header
+**************
+*/
+div#review_header{
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+div#review_header h2{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 6px;
+}
+div#review_header strong{
+	display: block;
+	color: #000;
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+div#review_header address{
+	float: right;
+	text-align: right;
+	line-height: 20px;
+	display: block;
+	font-style: normal;
+	font-size: 12px;
+}
+
+/*
+**************
+* form
+
+
+**************
+*/
+
+ul.write-a-review li{
+	margin-bottom: 10px;
+}
+ul.write-a-review li label{
+	width: 150px;
+	float: left;
+	font-size: 13px;
+}
+ul.write-a-review li fieldset{
+	border: 1px solid #c41200;
+	background-color: #fdffcd;
+	padding: 10px;
+	float: left;
+	margin-right: 20px;
+}
+ul.write-a-review li ul.start-0{
+	float: left;
+	background: url(//s3-media4.ak.yelpcdn.com/assets/2/www/img/0a8fef41dde1/ico/stars/v2/stars_map_30x30.png) no-repeat 0 0;
+	height: 30px;
+}
+ul.write-a-review li ul.start-0 input[type="radio"]{
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	-moz-opacity: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+ul.write-a-review li ul li{
+	padding-right: 3px;
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+ul.write-a-review li p{
+	float: left;
+	font-style: italic;
+	padding-top: 15px;
+	font-size: 12px;
+}
+ul.write-a-review li div.primary{
+	margin-left: 160px;
+}
+ul.write-a-review li div.primary textarea{
+	line-height: 1.2em;
+	min-height: 9.6em;
+	resize: none;
+	overflow: hidden;
+	overflow-y: auto;
+	width: 100%;
+	font-size: 12px;
+}
+
+/*
+**************
+* footer
+**************
+*/
+div#review-footer{
+	text-align: right;
+}
+div#review-footer p{
+	margin-bottom: 10px;
+}
+div#review-footer a{
+	font-size: 12px;
+}
+div#review-footer button{
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3px 16px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	background: #d80b06;
+	background: -webkit-linear-gradient(#ea050b, #c41200);
+	background: linear-gradient(#ea050b, #c41200);
+	text-shadow: 0 -1px 1px #b80806;
+	border: 1px solid #a50508;
+}
+div#review-footer button:hover{
+	color: #fff;
+	background: #e20b06;
+	background: -webkit-linear-gradient(#f4050b, #ce1300);
+	background: linear-gradient(#f4050b, #ce1300);
+}

@@ -1,0 +1,238 @@
+/*
+**************
+* reset
+**************
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+/*
+**************
+* body
+**************
+*/
+body{
+	margin-top: 10px;
+	font:sans-serif;
+}
+/*
+**************
+* wraper
+**************
+*/
+
+div#wraper{
+	width: 900px;
+	margin: 0 auto;
+	border:1px solid #e3e3e3;
+}
+/*
+**************
+* header
+**************
+*/
+.header{
+	margin-bottom: 20px;
+}
+.h_left{
+	float: left;
+	margin-left: 20px;
+}
+.h_left a{
+	text-decoration: none;
+
+}
+.h_left p{
+	margin-top: 80px;
+}
+ul#h_right_btn{
+}
+ul#h_right_btn li{
+	display: inline;
+	margin-left: 5px;
+}
+ul#h_right_link li{
+	display: inline;
+	border-right:1px solid black;
+	padding: 0 7px 0 7px;
+}
+ul#h_right_link li:last-child{
+	border: none;
+}
+ul#h_right_link li a{
+	text-decoration: none;
+	
+}
+ul#h_right_link li a:hover{
+	text-decoration: underline;
+}
+.h_right{
+	float: right;
+	text-align: right;
+	margin-right: 20px;
+}
+ul#h_right_link{
+	margin-top: 100px;
+}
+/*
+**************
+* nav
+**************
+*/
+
+div.nav{
+	clear: both;
+	border: 1px solid #e3e3e3;
+}
+div.nav ul{
+	padding: 10px 0 10px 0;
+	background: url("../images/img_products01.jpg") repeat-x ;
+}
+div.nav ul li{
+	display: inline;
+	border-right: 1px solid #e3e3e3;
+}
+div.nav ul li a{
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+}
+div.nav ul li a:hover{
+	text-decoration: underline;
+}
+/*
+**************
+* p body
+**************
+*/	
+div.p_body{
+	margin-top: 20px;
+}
+/*
+**************
+* content
+**************
+*/	
+div.content{
+	float: left;
+	width: 65%;
+	padding-left: 10px;
+}
+div.sp_moi h2{
+	border-bottom: 1px solid #e3e3e3;
+	margin-bottom: 20px;
+}
+div.sp_moi img.anhspmoi{
+	float: left;
+	margin-right: 20px;
+}
+div.sp_moi ul{
+	clear: both;
+	background-color: #e3e3e3;
+	margin-top: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+div.sp_moi ul li{
+	display: inline;
+	margin-right: 4px;
+}
+div.tintuc {
+	margin-top: 20px;
+}
+div.tintuc h2{
+	border-bottom: 1px solid #e3e3e3;
+	margin-bottom: 10px;
+}
+div.tintuc ul{
+	list-style: none;
+}
+div.tintuc li{
+	border-bottom: 1px solid #e3e3e3;
+	padding: 5px 0 5px 4px;
+}
+div.tintuc li a {
+	text-decoration: none;
+}
+div.tintuc li a:hover {
+	text-decoration: underline;
+}
+img.banner_contact{
+	margin-top: 20px;
+}
+/*
+**************
+* sidebar
+**************
+*/
+
+div.sidebar{
+	float: right;
+	padding-right: 5px;
+}
+div.sidebar h2{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #e3e3e3;
+}
+div.sidebar ul{
+	list-style: none;
+}
+div.sb_link ul{
+	margin-bottom: 20px;
+}
+div.sb_link ul li{
+	background: url("http://www.hocwebchuan.com/tutorial/example/images/ico_arrow.gif") no-repeat left center;
+	padding-left: 10px;
+}
+div.sb_link ul li a{
+	text-decoration: none;
+}
+div.sb_link ul li a:hover{
+	text-decoration: underline;
+}
+div.sb_banner ul li{
+	margin-bottom: 10px;
+}
+/*
+**************
+* footer
+**************
+*/
+
+div.footer{
+	clear: both;
+	border: 1px solid #e3e3e3;
+	padding: 10px;
+}
+div.f_left{
+	float: left;
+
+}
+div.f_left p{
+	margin-bottom: 3px;
+}
+
+div.f_right{
+	float: right;
+	text-align: right;
+}
+div.f_right ul{
+	padding-bottom: 3px;
+}
+div.f_right ul li a{
+	text-decoration: none;
+}
+div.f_right ul li a:hover{
+	text-decoration: underline;
+
+}
+div.f_right ul li{
+	display: inline;
+	border-right: 1px solid ;
+	padding-right: 5px;
+}
+div.f_right ul li:last-child{
+	border: none;
+	padding-right: 0;
+}

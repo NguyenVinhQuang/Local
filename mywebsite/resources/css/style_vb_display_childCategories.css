@@ -1,0 +1,35 @@
+
+div#findParent{
+	padding: 10px 0 20px 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+div#findParent label{
+	float: left;
+	color: #393939;
+	font-weight: bold;
+	font-family: 'Lucida Grande', Verdana, 'Lucida Sans Regular', 'Lucida Sans Unicode', Arial, sans-serif;
+	font-size: 11px;
+	width: 100px;
+	line-height: 31px;
+}
+div#inputParent {
+	float: left;
+	position: relative;
+}
+div#findParent input{
+	width: 180px;
+	height: 13px;
+	padding: 7px 7px 6px 7px;
+	margin: 0px;
+}
+div#inputParent ul{
+	position: absolute;
+	width: 198px;
+	border: 1px solid #cdcdcd;
+}
+div#inputParent ul li{
+	height: 20px;
+}
+div#inputParent ul li:hover {
+	background-color: #eeeeee;
+}

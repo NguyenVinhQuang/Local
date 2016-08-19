@@ -1,0 +1,388 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a, a:link, a:visited {
+	color: #3b65a7;
+	text-decoration: none;
+}
+a:hover{
+	color: #3b65a7;
+	text-decoration: underline;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-family: sans-serif;
+	background: #f5f5f1;
+}
+/*
+**************
+* wrap
+**************
+*/
+
+div#wrap{
+	width: 100%;
+}
+
+/*
+**************
+* header
+**************
+*/
+
+div#header{
+	width: 100%;
+	height: 77px;
+	background: url('../images/header_stars.png') no-repeat center,linear-gradient(#c41200, #af0606);
+}
+div#header_inside{
+	width: 960px;
+	margin: 0 auto;
+}
+div#logo{
+	float: left;
+	width: 111px;
+	height: 58px;
+	background: url(//s3-media1.ak.yelpcdn.com/assets/2/www/img/e0bcd848f6ae/structural/header_logo.png) no-repeat;
+	margin-top: 10px;
+}
+div#logo a{
+	display: block;
+	width: 111px;
+	height: 58px;
+	text-indent: -9999px;
+}
+div#header_inside form{
+	float: left;
+	min-height: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 100px;
+}
+
+div#search_field{
+	min-width: 300px;
+	min-height: 20px;
+	float: left;
+	background: rgba(250,249,246,0.95);
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #a70000;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);
+}
+div#search_field label{
+	float: left;
+	width: 40px;
+	height: 34px;
+	text-align: center;
+	line-height: 36px;
+	font-weight: bold;
+	padding-right: 5px;
+}
+div#input_field{
+	float: left;
+	height: 30px;
+	min-width: 	100px;
+}
+div#input_field input{
+	width: 250px;
+	height: 22px;
+	background: transparent;
+	border: none;
+	font-size: 16px;
+	margin-top:6px;
+}
+div#header_inside form button{
+	float: left;
+	width: 50px;
+	height: 34px;
+	border-radius: 3px;
+	background: #a20000;
+	background-image: linear-gradient(#be0100 4%, #a20000 5%, #7c0000);
+	border: 1px solid #7b0000;
+	cursor: pointer;
+}
+div#header_inside form button:hover{
+	background: #8f0000;
+	background-image: linear-gradient(#a00100 4%, #8f0000 5%, #600);
+}
+div#header_inside form button i{
+	width: 18px;
+	height: 18px;
+	display: block;
+	margin: 0 auto;
+	background-image: url(//s3-media2.ak.yelpcdn.com/assets/2/www/img/19181135a67a/sprites/common.png);
+	background-repeat: no-repeat;
+	background-position: -3px -1895px;
+}
+
+ul#nav_header{
+	float: left;
+	position: relative;
+	top: 7px;
+	left: 15px;
+	min-width: 556px;
+}
+ul#nav_header li{
+	display: inline;
+}
+ul#nav_header li a{
+	text-decoration: none;
+	padding: 2px 5px;
+	color: #f5f5f1;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 14px;
+}
+ul#nav_header li a:hover{
+	color: #fff;
+	background: #7e0801;
+	background: rgba(109,10,0,0.5);
+	-webkit-box-shadow: inset 0 1px 0 #7b0000,0 1px 0 #c33f01;
+	box-shadow: inset 0 1px 0 #7b0000,0 1px 0 #c33f01;
+
+}
+ul#sign_up{
+	float: right;
+	list-style: none;
+	position: relative;
+	top:15px;
+}
+ul#sign_up li{
+	text-align: center;
+}
+ul#sign_up li:first-child{
+	margin-bottom: 10px;
+}
+ul#sign_up li a{
+	text-decoration: none;
+	color: #f5f5f1;
+	font-size: 14px;
+	font-weight: bold;
+}
+ul#sign_up li a:hover{
+	text-decoration: underline;
+}
+ul#sign_up li:first-child a{
+	padding: 5px 16px;
+	margin-bottom: 6px;
+	border: 1px solid #7b0000;
+	background-image: linear-gradient(#be0100 4%, #a20000 5%, #7c0000);
+}
+ul#sign_up li:first-child a:hover{
+	background-image: linear-gradient(#a00100 4%, #8f0000 5%, #600);
+	text-decoration: none;
+}
+ /*
+ **************
+ * =page_body
+ **************
+ */
+
+ div#page_body{
+ 	border: 1px solid #ccccc8;
+ 	padding: 15px;
+ 	border-top: none;
+ 	background-color: #fff;
+ }
+
+ /*
+ **************
+ * =content
+ **************
+ */
+
+ div#content{
+ 	width: 640px;
+ 	float: left;
+ 	clear:both;
+ 	padding-right: 15px;
+ 	border-right: 1px solid #ccccc8;
+ }
+div#content h2.titlebig{
+	width: px;
+	height: 22px;
+	font-size: 24px;
+	line-height: 22px;
+	color: #c41200;
+	padding: 9px 15px 0 0px;
+	margin-bottom: 20px;
+}
+ div#content div.featuredCategory{
+ 	float: left;
+ 	width: 300px;
+ 	margin-bottom: 40px;
+ 	margin-right: 15px;
+ 	height:169px;
+ }
+ div#content div.featuredCategory h4 a i{
+ 	display: inline-block;
+ 	top: 3px;
+ 	width: 20px;
+ 	height: 20px;
+ 	background-image: url(//s3-media4.ak.yelpcdn.com/assets/2/www/img/c2b3c301fd11/sprites/best_of_yelp.png);
+ 	background-repeat: no-repeat;
+ 	margin-right: 3px;
+ 	position: relative;
+ }
+ div#content div.featuredCategory h4 a span{
+ 	display: inline-block;
+ }
+ div#content div.featuredCategory:last-child{
+ 	margin-right: 0px;
+ }
+ div#content div.featuredCategory h4{
+ 	font-size: 14px;
+ 	border-bottom: 1px solid #DE6800;
+ 	padding: 0 0 3px;
+ 	margin-bottom: 7px;
+ 	
+ }
+ div#content div.featuredCategory h4 a{
+	color: #c41200;
+	text-decoration: none;
+	display: block;
+ }
+ div#content div.featuredCategory img.avatar{
+ 	width: 40px;
+ 	height: 40px;
+ 	float: left;
+ }
+ div#content div.featuredCategory ul.places{
+ 	margin-left: 10px;
+ 	font-size: 15px;
+ }
+ div#content div.featuredCategory ul.places li{
+ 	margin-bottom: 3px;
+ 	overflow: hidden;
+ 	font-weight: bold;
+ }
+ div#content div.featuredCategory ul.places li.seeMore{
+ 	font-style: italic;
+ 	font-size: 12px;
+ }
+ 
+ div#content div.featuredCategory ul.places li a:hover{
+	text-decoration: underline;
+ }
+
+ /*
+ **************
+ * =side-bar
+ **************
+ */
+
+ div#side-bar{
+ 	float: right;
+ 	width: 300px;
+ 	min-height: 500px;
+ }
+
+ div.new-places{
+ 	background: url(http://www.place.vn/Content/images/boxnav_bottom.png) no-repeat 0 100%;
+ 	padding: 0 0 3px 0;
+ 	margin: 0 0 12px 0;
+ }
+
+ div.new-places h3{
+ 	height: 22px;
+ 	background: no-repeat #c41200;;
+ 	font-size: 18px;
+ 	color: #fff;
+ 	padding: 9px 9px 5px 14px;
+ 	line-height: 22px;
+ 	border-radius: 5px 5px 0 0;
+ }
+  div.new-places ul{
+  	padding: 3px 15px;
+  	background: url(http://www.place.vn/Content/images/back_nav.png) repeat-y;
+  }
+  div.new-places ul li{
+  	height: 30px;
+  	background: url(http://www.place.vn/Content/images/sepnav.png) no-repeat 0 100%;
+  	line-height: 30px;
+  }
+  div.new-places ul li:last-child{
+  	background:  no-repeat 0 100%;
+  }
+
+  div.new-places ul li a{
+  	font-size: 14px;
+  }
+  div.new-places ul li a:hover{
+  	text-decoration: underline;
+  }
+
+  /*
+  **************
+  * footer
+  **************
+  */
+  .footer {
+  padding: 36px 0 18px;
+  font-size: 14px;
+  line-height: 1.28571em;
+  color: #555;
+  }
+  .footer .footer-wrap {
+  width: 960px;
+  margin: 0 auto;
+  }
+  .footer .city-landscape-img {
+  display: block;
+  margin: 30px auto 0;
+  height: 211px;
+  background: url(//s3-media4.ak.yelpcdn.com/assets/2/www/img/e41bc8917803/structural/happy_footer.png) no-repeat center bottom;
+  }
+  .footer .lesser-text {
+  font-size: 12px;
+  line-height: 1.5em;
+  }
+  .footer .copyright {
+  text-align: center;
+  margin: 18px 0;
+  }
+  .footer-copyright-logo {
+  margin-bottom: -3px;
+  }
+  .footer-burst-logo {
+  margin-bottom: -1px;
+  }
+
+
+  /*
+  **************
+  * media-avatar
+  **************
+  */
+
+  .media-avatar{
+  	margin-right: 5px;
+  	float: left;
+  }
+  .photos-box a:visited img {
+  outline: none;
+  }
+  .photos-box .photos-box-img {
+  border-radius: 4px;
+  width: 25px;
+  height: 25px;
+  }
+  .photos-box img {
+  display: block;
+  }
+
+  /*
+  **************
+  * media-name
+  **************
+  */
+
+  .media-name{
+  	float: left;
+  	width: 186px;
+  }

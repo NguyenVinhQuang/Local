@@ -1,0 +1,78 @@
+.ybtn {
+padding: 2px 10px;
+color: #4b4b4b;
+font-size: 14px;
+line-height: 1.28571em;
+}
+.ybtn-primary {
+color: #fff;
+border: 1px solid #a50508;
+background: #ea050b;
+background-image: -webkit-linear-gradient(#ff2000 2%, #ea050b 10%, #d40d04 100%);
+background-image: linear-gradient(#ff2000 2%, #ea050b 10%, #d40d04);
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+text-shadow: 0 -1px 0 #760400;
+border-radius: 3px;
+}
+.ybtn-primary:hover {
+background: #ff2000;
+background-image: -webkit-linear-gradient(#ff2000 2%, #ea050b 50%, #d40d04 100%);
+background-image: linear-gradient(#ff2000 2%, #ea050b 50%, #d40d04);
+}
+
+p{
+	margin-bottom: 10px;
+}
+a {
+color: #3b65a7;
+text-decoration: none;
+}
+h2, .h2 {
+font-size: 16px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+font-weight: bold;
+color: #c41200;
+margin: 0 0 6px;
+}
+.column-alpha{
+	float: left;
+	padding: 0 15px;
+	min-height: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+a.view-all{
+	font-size: 14px;
+}
+
+#upload-area.biz-uploader {
+margin-bottom: 10px;
+}
+
+#upload-area {
+padding: 10px 10px 0 10px;
+background: #f9f9f9;
+width: 510px;
+border: 1px solid #cacaca;
+overflow: hidden;
+}
+.error{
+	margin-bottom: 5px;
+}
+#upload-area #upload-title {
+font-weight: bold;
+}
+#upload-title.biz-uploader {
+font-size: 16px;
+}
+#upload-info-area {
+margin-top: 5px;
+}
+input.btn-submit{
+	float: right;
+}

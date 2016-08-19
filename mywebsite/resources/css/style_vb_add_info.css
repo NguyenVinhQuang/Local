@@ -1,0 +1,7 @@
+div#answerMultichoices, div#answerYesNo{
+	display: none;
+}
+
+div#answerYesNo input{
+	margin-right: 20px;
+}

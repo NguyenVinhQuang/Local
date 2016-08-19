@@ -1,0 +1,145 @@
+a.ybtn {
+	text-decoration: none;
+}
+.ybtn {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 3px 16px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	color: #3b65a7;
+	background: #f8f8f8;
+	background: -webkit-linear-gradient(white, #eee);
+	background: linear-gradient(white, #eee);
+	border: 1px solid #cdcdcd;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 0 1px 0 rgba(255,255,255,0.5);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 0 1px 0 rgba(255,255,255,0.5);
+}
+.ybtn:hover {
+	color: #3b65a7;
+	background: #fdfdfd;
+	background: -webkit-linear-gradient(white, #f5f5f5);
+	background: linear-gradient(white, #f5f5f5);
+}
+.ybtn:visited {
+	color: #3b65a7;
+}
+.ybtn-primary {
+	color: #fff;
+	background: #d80b06;
+	background: -webkit-linear-gradient(#ea050b, #c41200);
+	background: linear-gradient(#ea050b, #c41200);
+	text-shadow: 0 -1px 1px #b80806;
+	border: 1px solid #a50508;
+}
+.ybtn-primary:hover {
+	color: #fff;
+	background: #e20b06;
+	background: -webkit-linear-gradient(#f4050b, #ce1300);
+	background: linear-gradient(#f4050b, #ce1300);
+}
+.ybtn-primary:visited {
+	color: #fff;
+}
+.ybtn-secondary {
+	color: #c41200;
+	background: #f8f0d0;
+	border: 1px solid #bcb69e;
+	text-shadow: 0 1px 1px #fff;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 0 1px 0 rgba(255,255,255,0.8);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 0 1px 0 rgba(255,255,255,0.8);
+}
+.ybtn-secondary:hover {
+	color: #c41200;
+	background: #f9f3d9;
+	}
+.ybtn-small {
+	padding: 2px 12px;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+
+.column{
+	float: left;
+	padding: 0 15px;
+	min-height: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 50%;
+}
+.column-alpha{
+	border-right: 1px solid #e5e5e1;
+}
+#login-form{
+	width: 350px;
+	padding-left: 48px;
+}
+#login-form .alert{
+	font-size: 12px;
+}
+#login-form h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #c41200;
+	margin: 0 0 6px;
+}
+#login-form p{
+	margin: 5px 0;
+	font-size: 12px;
+}
+#login-form label{
+	color: #c41200;
+	display: block;
+	float: left;
+	font-weight: bold;
+	margin-top: 2px;
+	text-align: left;
+	width: 140px;
+}
+#txtAccount, #txtPass{
+	margin-top: 10px;
+	width: 200px;
+	font-size: 12px;
+	padding: 1px 0px;
+	background-color: white;
+	border: 1px inset;
+}
+.alignright{
+	margin: 10px 0 20px;
+	text-align: right;
+}
+
+/*
+**************
+* column beta
+**************
+*/
+
+div.column-beta{
+
+}
+div#login-to-signup{
+	text-align: center;
+	width: 390px;
+	padding: 0 0 30px 38px;
+}
+#login-to-signup h2, #login-to-signup p {
+	text-align: center;
+}
+#login-to-signup h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #c41200;
+	margin: 0 0 6px;
+}
+#login-to-signup p{
+	margin: 5px 0;
+	font-size: 12px;
+}

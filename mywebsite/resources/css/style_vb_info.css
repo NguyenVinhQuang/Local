@@ -1,0 +1,37 @@
+div#displayInfo ul{
+	float: left;
+	width: 220px;
+	margin: 0 10px 30px 0;
+}
+div#displayInfo ul li{
+	border-bottom: 1px solid #DFDFDF;
+	min-height: 45px;
+}
+div#displayInfo ul li:hover{
+	border-bottom: none;
+	background-color: #EFEFEF;
+}
+div#displayInfo ul li div:first-child{
+	float: left;
+	width: 120px;
+	padding-left: 3px;
+}
+div#displayInfo ul li div:last-child{
+	float: right;
+	min-width: 100px;
+}
+div#displayInfo ul li a{
+	margin-right: 3px;
+	border: 1px solid #336699;
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	text-decoration: none;
+	color: #003367;
+}
+
+div#displayInfo ul li a:hover{
+	background-color: white;
+}

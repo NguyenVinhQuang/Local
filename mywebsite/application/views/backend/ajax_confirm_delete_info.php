@@ -1,0 +1,2 @@
+<button type='button' value="<?php echo $id ?>" style="color:red;" onclick="getValue(this.value)">Del</button>
+<button type='button' value="<?php echo $id ?>" onclick="returnDelete(this.value);" style="color:green;">Cancel</button>

@@ -1,0 +1,1 @@
+<button value = 'remove' class="btn-remove" type="button" onclick="confirm(<?php echo $data['id'] ?>);">Remove</button>

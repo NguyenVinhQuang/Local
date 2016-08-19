@@ -1,0 +1,2 @@
+<button  class="btn-ok" type="button" onclick="delete_img(<?php echo $data['id'] ?>);">Ok</button>
+<button  class="btn-cancel" type="button" onclick="cancel(<?php echo $data['id'] ?>);">Cancel</button>

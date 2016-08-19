@@ -1,0 +1,545 @@
+/*
+**************
+* place-header
+**************
+*/
+
+div.place-header{
+
+}
+div.place-header .place-header-left{
+	float: left;
+}
+div.place-header .place-header-star{
+	margin-top: 20px;
+	float: left;
+	clear: left;
+}
+div.place-header .place-header-star i{
+	float: left;
+	width: 126px;
+	height: 22px;
+	background: url(//s3-media3.ak.yelpcdn.com/assets/2/www/img/c2252a4cd43e/ico/stars/v2/stars_map.png) no-repeat;
+	margin-right: 6px;
+}
+div.place-header .place-header-right{
+	float: right;
+	clear: 	left;
+	margin-top: 20px;
+}
+div.place-header .place-header-right .review-btn{
+	float: left;
+	padding-left: 12px;
+	margin: -1px 12px 0 0;
+	color: #fff;
+	border: 1px solid #a50508;
+	background: #ea050b;
+	background-image: -webkit-linear-gradient(#ff2000 2%, #ea050b 10%, #d40d04 100%);
+	background-image: linear-gradient(#ff2000 2%, #ea050b 10%, #d40d04);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	text-shadow: 0 -1px 0 #760400;
+	border-radius: 4px;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 7px 16px;
+}
+div.place-header .place-header-right .review-btn:hover{
+	background: #ff2000;
+	background-image: linear-gradient(#ff2000 2%, #ea050b 50%, #d40d04);
+}
+div.place-header .place-header-right .review-btn span{
+	padding-left: 23px;
+	line-height: 20px;
+	position: relative;
+	display: inline-block;
+}
+div.place-header .place-header-right .review-btn span i{
+	display: block;
+	position: absolute;
+	background-position: -3px -817px;
+	left: -3px !important;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	background-image: url(//s3-media3.ak.yelpcdn.com/assets/2/www/img/d23a844637b7/sprites/biz_details.png);
+	background-repeat: no-repeat;
+}
+div.place-header .place-header-right span.btn-right{
+	float: left;
+	margin-top: 3px;
+}
+div.place-header .place-header-right span.btn-right .add-photo-btn{
+	border-radius: 3px 0 0 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 1px -1px 0 0 #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 1px -1px 0 0 #fff;
+	position: relative;
+	float: left;
+	border: 1px solid rgba(0,0,0,0.2);
+	text-shadow: 0 1px 0 #fff;
+	padding: 5px 8px;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #4b4b4b;
+}
+div.place-header .place-header-right span.btn-right .add-photo-btn:hover{
+	background: #f0f0f0;
+	background: -webkit-linear-gradient(#fafafa, #e9e9e9);
+	background: linear-gradient(#fafafa, #e9e9e9);
+}
+div.place-header .place-header-right span.btn-right .add-photo-btn span{
+	padding-left: 21px;
+	line-height: 16px;
+	position: relative;
+	display: inline-block;
+	color: #4b4b4b;
+	text-align: center;
+	font-weight: bold;
+}
+div.place-header .place-header-right span.btn-right .add-photo-btn span i{
+	display: block;
+	position: absolute;
+	left: 0;
+	background-position: -3px -3px;
+	width: 15px;
+	height: 13px;
+	top: 1px;
+	background-image: url(//s3-media3.ak.yelpcdn.com/assets/2/www/img/d23a844637b7/sprites/biz_details.png);
+	background-repeat: no-repeat;
+}
+/*
+**************
+* =simple-info
+**************
+*/
+
+div.simple-info{
+	float: left;
+	width: 300px;
+}
+div.simple-info p{
+	font-size: 15px;
+	padding-bottom: 5px;
+	font-weight: normal;
+	line-height: 2.5em;
+}
+div.simple-info a:hover{
+	text-decoration: underline;
+}
+div.simple-info p span.comment-count{
+	background: url(http://www.place.vn/Content/images/icon_map.png) no-repeat scroll 0 -400px transparent;
+	padding-left: 20px;
+	font-size: 16px;
+}
+div.simple-info p span.view-count{
+	background: url(http://www.place.vn/Content/images/icon_map.png) no-repeat scroll 0 -480px transparent;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 16px;
+}
+div#googleMap{
+	float: right;
+	width: 333px;
+	height: 311px;
+}
+
+/*
+**************
+* places-photo
+**************
+*/
+div.place-photos{
+	background-color: #EBEBEB;
+	padding: 13px 5px 13px 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+div.place-photos a.btn-prev, a.btn-next{
+	display: block;
+	
+	width: 25px;
+	height: 130px;
+	line-height: 130px;
+	font-size: 33px;
+	text-decoration: none;
+	color: #359aff;
+}
+div.place-photos a.btn-prev{
+	float: left;
+}
+div.place-photos a.btn-next{
+	float: right;
+}
+div.place-photos a:hover{
+	color: #024080;
+}
+div.place-photos div.photos{
+	float: left;
+	margin: 0 5px;
+	width: 600px;
+}
+div.place-photos div.photos li{
+	margin: 0 5px;
+}
+div.place-photos div.photos img{
+	width: 130px;
+	height: 130px;
+
+}
+
+/*
+**************
+* =feed review
+**************
+*/
+
+div.feed{
+	margin-top: 20px;
+}
+
+/*
+**************
+* feed header
+**************
+*/
+
+div.feed-header{
+
+}
+
+div.feed-header h2{
+	float: left;
+	padding: 0 15px;
+	box-sizing: border-box;
+	width: 50%;
+	font-size: 24px;
+	line-height: 1.25em;
+	font-weight: bold;
+	color: #c41200;
+	margin: 0 0 6px;
+}
+/*
+**************
+* review list
+**************
+*/
+div.review-list{
+
+}
+div.review-list ul.review li.review-detail{
+	margin: 0;
+	padding: 18px 0;
+	border-bottom: 1px solid #e5e5e1;
+	padding-bottom: 17px;
+}
+div.review-list ul.review li .review-side-bar{
+	float: left;
+	padding: 0 15px;
+	min-height: 1px;
+	box-sizing: border-box;
+	width: 37.5%;
+}
+div.review-list ul.review li .review-side-bar .passport{
+	font-size: 12px;
+	line-height: 1.5em;
+}
+div.review-list ul.review li .review-side-bar .passport .media-avatar{
+	margin-right: 9px;
+	float: left;
+}
+div.review-list ul.review li .review-side-bar .passport .media-avatar img{
+	border-radius: 4px;
+	width: 60px;
+	height: 60px;
+}
+div.review-list ul.review li .review-side-bar .passport .media-story{
+	display: table-cell;
+	vertical-align: top;
+	width: 1000000px;
+}
+.user-name a{
+	font-size: 14px;
+	line-height: 1.28571em;
+	font-weight: bold;
+}
+li.review-count{
+	color: #555;
+}
+li.review-count span{
+	padding-left: 17px;
+	line-height: 13px;
+	position: relative;
+	display: inline-block;
+}
+li.review-count span i{
+	display: block;
+	position: absolute;
+	left: 0;
+	background-position: -3px -2096px;
+	width: 13px;
+	height: 13px;
+	background-image: url(//s3-media2.ak.yelpcdn.com/assets/2/www/img/518d04cd1d0e/sprites/common.png);
+	background-repeat: no-repeat;
+}
+div.review-list ul.review li .review-wrapper{
+
+}
+/*
+**************
+* review-wrapper
+**************
+*/
+div.review-wrapper{
+	float: left;
+	padding: 0 15px;
+	min-height: 1px;
+	box-sizing: border-box;
+	width: 62.5%;
+}
+div.review-content{
+	padding: 0 12px 6px 0;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+div.review-content div.rating{
+	margin-bottom: 12px;
+}
+div.review-content div.rating i{
+	float: left;
+	width: 126px;
+	height: 22px;
+	background: url(//s3-media3.ak.yelpcdn.com/assets/2/www/img/c2252a4cd43e/ico/stars/v2/stars_map.png) no-repeat;
+	margin-right: 6px;
+}
+div.review-content div.rating span{
+	display: block;
+	float: left;
+	color: #555;
+	line-height: 22px;
+	font-size: 14px;
+}
+div.review-content p.review-comment{
+	line-height: 18px;
+	margin-bottom: 12px;
+	font-family: 'Helvetica Neue', 'Helvetica Neue LT Std', 'Helvetica LT Std', Helvetica, arial, sans-serif;
+	font-size: 14px;
+}
+div.review-footer .rate-review{
+	float: left;
+	margin-bottom: 0;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #555;
+}
+div.review-footer .rate-review p{
+	white-space: nowrap;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+div.review-footer .rate-review ul{
+	line-height: 1.5em;
+	color: #555;
+}
+div.review-footer .rate-review ul li{
+	margin-right: 6px;
+	font-size: 14px;
+	line-height: 1.28571em;
+	display: inline-block;
+}
+div.review-footer .rate-review ul li button{
+	display: block;
+	border-radius: 2px;
+	padding: 5px 6px;
+	white-space: nowrap;
+	font-size: 12px;
+	line-height: 1.5em;
+	border: 1px solid rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+div.review-footer .rate-review ul li .btn-vote, div.review-footer .rate-review ul li .btn-status-off{
+	text-shadow: 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 0 -2px 2px rgba(0,0,0,0.05),inset 0 -1px 1px #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 0 -2px 2px rgba(0,0,0,0.05),inset 0 -1px 1px #fff;
+	color: #4b4b4b;
+}
+div.review-footer .rate-review ul li .btn-vote:hover, div.review-footer .rate-review ul li .btn-status-off:hover{
+	background: #f0f0f0;
+	background: -webkit-linear-gradient(#fafafa, #e9e9e9);
+	background: linear-gradient(#fafafa, #e9e9e9);
+}
+div.review-footer .rate-review ul li .btn-status-on{
+	border-color: #5e7daa;
+	background: #7ca6e7;
+	background: -webkit-linear-gradient(#769dd4, #7da6e1);
+	background: linear-gradient(#769dd4, #7da6e1);
+
+}
+div.review-footer .rate-review ul li .btn-unvote{
+	border-color: #ba752c;
+	background: linear-gradient(#e99338, #f79b3b);
+	color: #fff;
+	text-shadow: rgba(0,0,0,0.2) 0 -1px;
+	-webkit-box-shadow: inset 0 2px 2px rgba(0,0,0,0.05);
+	box-shadow: inset 0 2px 2px rgba(0,0,0,0.05);
+
+}
+div.review-footer .rate-review ul li button>span{
+	padding-left: 16px;
+	line-height: 18px;
+	position: relative;
+	display: inline-block;
+}
+div.review-footer .rate-review ul li button>span i{
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 12px;
+	height: 18px;
+	background-image: url(//s3-media2.ak.yelpcdn.com/assets/2/www/img/518d04cd1d0e/sprites/common.png);
+	background-repeat: no-repeat;
+}
+div.review-footer .rate-review ul li button.btn-vote>span i{
+	background-position: -3px -255px;
+}
+div.review-footer .rate-review ul li button.btn-unvote>span i{
+	background-position: -33px -255px;
+}
+div.review-footer .rate-review ul li span.vote-type{
+	line-height: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+div.review-footer .rate-review ul li span.count{
+	font-weight: normal;
+	margin-left: 3px;
+	
+}
+
+/*
+**************
+* side-bar
+**************
+*/
+
+#modify-place .btn-edit{
+	float: left;
+	margin-right: 12px;
+}
+#modify-place .edit-place-btn{
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 1px -1px 0 0 #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	text-shadow: 0 -1px 0 #760400;
+	position: relative;
+	float: left;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 5px 8px;
+	font-size: 12px;
+	color: #4b4b4b;
+	background: #ea050b;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#modify-place .edit-place-btn:hover{
+	background: #ff2000;
+	background-image: linear-gradient(#ff2000 2%, #ea050b 50%, #d40d04);
+}
+#modify-place .edit-place-btn span{
+	line-height: 16px;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+#modify-place .ok-btn{
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 1px -1px 0 0 #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	text-shadow: 0 -1px 0 #760400;
+	position: relative;
+	float: left;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 5px 8px;
+	font-size: 17px;
+	color: #fff;
+	background: rgba(255, 24, 0, 0.65);
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+#modify-place .cancel-btn{
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 1px -1px 0 0 #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	text-shadow: 0 -1px 0 #760400;
+	position: relative;
+	float: left;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 5px 8px;
+	font-size: 17px;
+	color: #fff;
+	background: green;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*
+**************
+* remove button
+**************
+*/
+
+.smallest {
+font-size: 10px;
+}
+p.reviewActions {
+float: right;
+margin-top: 30px;
+}
+.ig-wrap-common {
+line-height: 16px;
+padding-left: 20px;
+position: relative;
+display: inline-block;
+}
+.i-x-close-gray-small-common-wrap {
+padding-left: 15px;
+}
+p.reviewActions a {
+margin-left: 5px;
+cursor: pointer;
+}
+.ig-common {
+display: inline-block;
+top: 0;
+width: 16px;
+height: 16px;
+background-image: url(//s3-media2.ak.yelpcdn.com/assets/2/www/img/f537c78850c0/sprites/common.png);
+background-repeat: no-repeat;
+background-position: -999px -999px;
+}
+.i-x-close-gray-small-common {
+background-position: -3px -2460px;
+width: 11px;
+height: 11px;
+top: 2px;
+}
+.ig-wrap-common .ig-common {
+display: block;
+position: absolute;
+left: 0;
+}

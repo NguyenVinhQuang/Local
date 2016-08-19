@@ -1,0 +1,350 @@
+h4, .h4 {
+font-size: 12px;
+margin: 0 0 3px;
+}
+h3, .h3 {
+font-size: 14px;
+}
+h1, .h1 {
+font-size: 18px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+font-weight: bold;
+color: #c41200;
+margin: 0 0 6px;
+}
+/*
+**************
+* header
+**************
+*/
+#userTabs li {
+background: url(//s3-media4.ak.yelpcdn.com/assets/2/www/img/f092a6008781/tabs2/round_left_off.gif) no-repeat #f38e5a;
+padding: 0 0 0 10px;
+margin: 0 2px 0 0;
+font-size: 11px;
+float: left;
+}
+
+#userTabs li.selected {
+background-image: url(//s3-media2.ak.yelpcdn.com/assets/2/www/img/87212ba4bf08/tabs2/round_left_on.gif);
+background-color: #ed5100;
+}
+
+#userTabs li a {
+background: url(//s3-media3.ak.yelpcdn.com/assets/2/www/img/7cc5d863e403/tabs2/round_right_off.gif) no-repeat;
+background-position: top right;
+display: block;
+float: left;
+color: #fff;
+padding: 4px 10px 4px 0;
+outline: 0;
+}
+
+#userTabs li.selected a {
+background-image: url(//s3-media1.ak.yelpcdn.com/assets/2/www/img/6cbd856709a9/tabs2/round_right_on.gif);
+}
+
+
+.boxAmbientYellow {
+background: #fffae8;
+margin: 0 10px 10px 10px;
+padding: 10px;
+border: 1px solid #ccc;
+}
+.about-connections.boxAmbientYellow {
+padding: 0;
+margin: 0 0 15px;
+}
+
+.about-connections h2, .about-connections h1 {
+margin: 5px 10px;
+}
+
+/*
+**************
+* container
+**************
+*/
+
+.layout-block {
+margin: 0 -15px;
+}
+.layout-block.equalize-columns {
+overflow: hidden;
+}
+
+/*
+**************
+* column alpha
+**************
+*/
+
+.layout-o .column-alpha {
+float: left;
+padding: 0 15px;
+min-height: 1px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+width: 75%;
+float: right;
+}
+.layout-o.layout-border .column-alpha {
+border-right: none;
+-webkit-box-shadow: -1px 0 0 #e5e5e1;
+box-shadow: -1px 0 0 #e5e5e1;
+}
+
+
+.layout-sub-a .column-sub-alpha {
+float: left;
+padding: 0 15px;
+min-height: 1px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+width: 66.66667%;
+border-right: 1px solid #e5e5e1;
+}
+h3#recentReviews {
+padding-top: 5px;
+float: left;
+margin-right: 5px;
+}
+.formLabel, .formNote {
+font-size: 10px;
+color: #333;
+font-weight: 400;
+}
+.highlight3, .formNote {
+font-style: oblique;
+}
+#review_lister_header .formNote {
+padding-top: 8px;
+margin-bottom: 5px;
+}
+
+
+.review {
+padding: 10px 0 5px 0;
+border-top: 1px solid #ccc;
+clear: both;
+}
+.review .biz_info {
+clear: left;
+margin-bottom: 10px;
+overflow: hidden;
+width: 100%;
+}
+address {
+display: block;
+font-style: normal;
+}
+.smaller {
+font-size: 11px;
+}
+.biz_info address {
+display: block;
+text-align: left;
+width: 140px;
+float: right;
+}
+
+
+.review-meta .rating-container {
+display: inline-block;
+vertical-align: middle;
+margin-right: 3px;
+}
+.rating {
+position: relative;
+overflow: hidden;
+width: 82px;
+height: 14px;
+}
+.review .rating {
+float: left;
+}
+.star-img {
+display: block;
+width: 100%;
+height: 100%;
+background: url(//s3-media3.ak.yelpcdn.com/assets/2/www/img/c2252a4cd43e/ico/stars/v2/stars_map.png) no-repeat;
+}
+.rating .stars_5 {
+background-position: -3px -165px;
+}
+.review-meta .date {
+position: relative;
+top: 1px;
+margin-right: 10px;
+}
+.review_comment {
+line-height: 1.385;
+font-size: 12px;
+
+}
+.review .review_comment {
+margin: 10px 0px;
+}
+.smallest {
+font-size: 10px;
+}
+.review .reviewActions {
+float: right;
+}
+.ig-wrap-common {
+line-height: 16px;
+padding-left: 20px;
+position: relative;
+display: inline-block;
+}
+.i-x-close-gray-small-common-wrap {
+padding-left: 15px;
+}
+.review .reviewActions a {
+margin-left: 5px;
+cursor: pointer;
+}
+.ig-common {
+display: inline-block;
+top: 0;
+width: 16px;
+height: 16px;
+background-image: url(//s3-media2.ak.yelpcdn.com/assets/2/www/img/f537c78850c0/sprites/common.png);
+background-repeat: no-repeat;
+background-position: -999px -999px;
+}
+.i-x-close-gray-small-common {
+background-position: -3px -2460px;
+width: 11px;
+height: 11px;
+top: 2px;
+}
+.ig-wrap-common .ig-common {
+display: block;
+position: absolute;
+left: 0;
+}
+/*
+**************
+* column-beta
+**************
+*/
+.layout-o .column-beta {
+float: left;
+padding: 0 15px;
+min-height: 1px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+width: 25%;
+float: right;
+}
+.layout-o.layout-border .column-beta {
+box-shadow: none;
+margin-left: 0;
+border-right: 1px solid #e5e5e1;
+}
+#user-profile-photos {
+margin-bottom: 10px;
+}
+#user-main-photo {
+float: left;
+}
+.photo-box img {
+display: block;
+}
+.photo-box .photo-box-img {
+border-radius: 4px;
+}
+.photo-box a:visited img {
+outline: none;
+}
+
+#user_stats {
+width: auto;
+float: left;
+margin-bottom: 10px;
+}
+#user_stats li {
+font-size: 10px;
+margin-bottom: 3px;
+}
+.i-star-orange-common-wrap {
+padding-left: 17px;
+line-height: 13px;
+}
+.i-star-orange-common {
+background-position: -3px -2131px;
+width: 13px;
+height: 13px;
+}
+div#upload_photos{
+	margin-bottom: 10px;
+}
+div#upload_photos input[type='file']{
+	width: 100%;
+}
+div#error{
+	font-size:14px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+/*
+**************
+* set-level
+**************
+*/
+
+div#set-level{
+	clear: both;
+}
+div#set-level span.btn-set-level{
+	width: 74px;
+	display: inline-block;
+}
+#set-level a.set-member{
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 1px -1px 0 0 #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	text-shadow: 0 -1px 0 #760400;
+	position: relative;
+	float: left;
+	border: 1px solid #a50508;
+	padding: 2px 3px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #fff;
+	background: #ea050b;
+	background-image: linear-gradient(#ff2000 2%, #ea050b 10%, #d40d04);
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+#set-level a.set-member:hover{
+	background: #ff2000;
+	background-image: linear-gradient(#ff2000 2%, #ea050b 50%, #d40d04);
+}
+#set-level a.set-admin{
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 1px -1px 0 0 #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),inset 1px -1px 0 0 #fff;
+	text-shadow: 0 1px 0 #fff;
+	position: relative;
+	float: left;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 2px 3px;
+	font-size: 12px;
+	color: #4b4b4b;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;	
+}
+#set-level a.set-admin:hover{
+	background: linear-gradient(#fafafa, #e9e9e9);
+}
